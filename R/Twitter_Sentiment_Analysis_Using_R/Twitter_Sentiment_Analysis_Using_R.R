@@ -44,10 +44,10 @@ install.packages("plyr")
 ###Setting working directory
 setwd("D:/AMRIT/PGCBAMD/courses/Text Mining/Text_Mining_Assignment")
 download.file(url="http://curl.haxx.se/ca/cacert.pem",destfile="cacert.pem")
-consumer_key = "qO4v4v0PGsEmLWCi2AvMKh15l"
-consumer_secret = "mHrbb48qr2IwhGLthtLAPReiQFX35ogZTtPqNdkdXjGliGfQXx"
-access_token = "3162082478-wT78SnIsoEvSGVOEQsWd6DIdielFGcvqBNivvvE"
-access_secret = "r8fbxGBGSVQ93nc1qq89AtlQtr7G32R1cSVGVy6qWELBp"
+consumer_key = "generate your consumer key"
+consumer_secret = "generate your consumer_secret"
+access_token = "Put your token"
+access_secret = "put your access_secret"
 #########################
 
 setup_twitter_oauth(consumer_key,consumer_secret,access_token,access_secret)
